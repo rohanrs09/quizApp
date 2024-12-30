@@ -149,6 +149,8 @@ Ensure these are set in your .env file in the backend directory before running t
   Your browser does not support the video tag.
 </video>
 
+[Click here to watch the video](./public/quizapp.mp4)
+
 
 ### Explanation:
 1. The README includes **basic sections** that explain the purpose, technology stack, features, setup instructions, API endpoints, and environment variables.
