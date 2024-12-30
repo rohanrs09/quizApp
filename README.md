@@ -138,8 +138,6 @@ PORT=5000
 Ensure these are set in your .env file in the backend directory before running the application.
 
 
-# Media Example
-
 ## Image 
 
 <img src="./public/image.png" alt="Alt Text" width="500" height="300">
