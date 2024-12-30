@@ -63,6 +63,28 @@ git clone https://github.com/your-username/quiz-application.git
 cd quiz-application
 ```
 
+### Project Folder Structure
+
+```bash
+quiz-app/
+├── backend/
+│   ├── models/
+│   │   └── Question.js
+│   ├── routes/
+│   │   └── questions.js
+│   ├── .env
+│   ├── package.json
+│   └── server.js
+└── frontend/
+    ├── public/
+    ├── src/
+    │   ├── App.js
+    │   ├── index.css
+    │   └── index.js
+    ├── package.json
+    └── tailwind.config.js
+  ```
+
 ### Install backend dependencies
 ```bash
 cd backend
@@ -75,5 +97,52 @@ cd ../frontend
 npm install
 ```
 
+# Set Up Environment Variables
+
+Create a `.env` file in the backend directory and add the following:
+
+```plaintext
+MONGODB_URI=your_mongodb_connection_string
+PORT=5000
+```
+
+# Running the Project
+
+1. Start the backend server:
+   ```bash
+   cd backend
+   npm run dev
+   ```
+2. In a new terminal, start the frontend development server:
+    ```bash
+   cd frontend
+   npm start
+   ```
+3. Open http://localhost:3000 in your browser to view the application.
 
 
+
+# 🕸️ API Endpoints
+
+* `POST /api/questions/fetch-and-store`: Fetches questions from the Open Trivia Database API and stores them in MongoDB.
+* `GET /api/questions/random`: Retrieves a random question from the database.
+
+
+
+# 🔗 Environment Variables
+
+The following environment variables are required for the application to function properly:
+
+```plaintext
+MONGODB_URI=your_mongodb_connection_string
+PORT=5000
+```
+Ensure these are set in your .env file in the backend directory before running the application.
+
+
+### Explanation:
+1. The README includes **basic sections** that explain the purpose, technology stack, features, setup instructions, API endpoints, and environment variables.
+2. **Code blocks** are used to format instructions like cloning the repository, installing dependencies, and running the application.
+3. **Instructions are clear** and broken down step-by-step for users to follow easily.
+
+This format is user-friendly, guiding others on how to use and set up your project. Let me know if this is what you were looking for!
