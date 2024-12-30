@@ -144,10 +144,7 @@ Ensure these are set in your .env file in the backend directory before running t
 
 ## Video 
 
-<video width="600" controls>
-  <source src="./public/quizapp.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Quiz App Demo](./public/gifquiz.gif)
 
 
 ### Explanation:
