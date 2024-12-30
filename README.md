@@ -146,7 +146,7 @@ Ensure these are set in your .env file in the backend directory before running t
 
 ![Quiz App Demo](./public/gifquiz.gif)
 
-[Click here to watch the video](./public/quizapp.mp4)
+<!-- [Click here to watch the video](./public/quizapp.mp4) -->
 
 
 ### Explanation:
