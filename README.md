@@ -1,7 +1,5 @@
-# Quiz Application
-
 <div align="center">
-  <h2 align="center">Quiz Application</h2>
+  <h1 align="center">Quiz Application</h1>
   <p align="center">
     A full-stack quiz application with dynamic question fetching and user interaction.
   </p>
