@@ -138,6 +138,20 @@ PORT=5000
 Ensure these are set in your .env file in the backend directory before running the application.
 
 
+# Media Example
+
+## Image 
+
+<img src="./public/image.png" alt="Alt Text" width="500" height="300">
+
+## Video 
+
+<video width="600" controls>
+  <source src="./public/quizapp.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ### Explanation:
 1. The README includes **basic sections** that explain the purpose, technology stack, features, setup instructions, API endpoints, and environment variables.
 2. **Code blocks** are used to format instructions like cloning the repository, installing dependencies, and running the application.
